@@ -17,7 +17,7 @@ Works using a static class for ease of access for rolling dice
 
 ## Notes
 - Tested in Godot 4.5.1, and should work in all Godot 4.x versions
-- If using for Godot 3.x or lower, make sure to initialise global random first in `_Ready()` using `GD.Randomize()`
+- If using in Godot 3.x or lower, make sure to initialise global random first in `_Ready()` using `GD.Randomize()`, for more info see [the Godot Docs](https://docs.godotengine.org/en/stable/tutorials/math/random_number_generation.html#the-randomize-method)
 
 ## License
 Released under [MIT License](https://github.com/Pos1tr0n/godot-dice-rolling/blob/main/LICENSE)
